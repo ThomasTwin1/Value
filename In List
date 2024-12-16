@@ -1,0 +1,12 @@
+# Let's check to see if a value is in a list
+numbers = [1, 2]
+for number in numbers:
+     if 1 in numbers:
+         print("1 is in the list")
+# Output: 1 is in the list
+#         1 is in the list
+# We can also see if a value is not in a list
+numbers = [2]
+for number in numbers:
+     if 1 not in numbers:
+         print("1 is not in the list")
